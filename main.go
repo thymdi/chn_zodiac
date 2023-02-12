@@ -27,7 +27,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	animals := animal.CreateManyfromCSV(data)
+	animals := animal.CreateManyFromCSV(data)
 
 	fmt.Println(len(animals))
 

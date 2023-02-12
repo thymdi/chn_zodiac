@@ -6,7 +6,7 @@ type Animal struct {
 	Emoji    string
 }
 
-func CreateManyfromCSV(data [][]string) []Animal {
+func CreateManyFromCSV(data [][]string) []Animal {
 	var animals []Animal
 	for i, row := range data {
 		if i < 1 {
